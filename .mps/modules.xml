@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MPSProject">
+    <projectModules>
+      <modulePath path="$PROJECT_DIR$/languages/net.virtualinfinity.aspects/net.virtualinfinity.aspects.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/net.virtualinfinity.aspects.build.mps/net.virtualinfinity.aspects.build.mps.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/net.virtualinfinity.aspects/net.virtualinfinity.aspects.msd" folder="" />
+    </projectModules>
+  </component>
+</project>
