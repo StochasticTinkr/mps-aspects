@@ -80,6 +80,9 @@
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="6yOW_Vf4vDr" resolve="IAspect" />
     </node>
+    <node concept="PrWs8" id="52RsO6qgFG6" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
   </node>
   <node concept="1TIwiD" id="6yOW_VeBkle">
     <property role="EcuMT" value="7544921764759684430" />
