@@ -329,14 +329,5 @@
       <node concept="l2Vlx" id="4XxHUpTnb_M" role="2iSdaV" />
     </node>
   </node>
-  <node concept="24kQdi" id="4XxHUpTLA7h">
-    <ref role="1XX52x" to="27qy:4XxHUpSUZ5B" resolve="PlaceholderHasAspects" />
-    <node concept="3F0ifn" id="4XxHUpTLA7j" role="2wV5jI">
-      <property role="3F0ifm" value="" />
-      <node concept="VPxyj" id="4XxHUpTLA7m" role="3F10Kt">
-        <property role="VOm3f" value="true" />
-      </node>
-    </node>
-  </node>
 </model>
 

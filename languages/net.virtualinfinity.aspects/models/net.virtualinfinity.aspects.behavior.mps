@@ -148,17 +148,6 @@
   </registry>
   <node concept="13h7C7" id="6yOW_Vf6UBh">
     <ref role="13h7C2" to="27qy:6yOW_Vf6UBg" resolve="IHasAspects" />
-    <node concept="13i0hz" id="64Pbr945vCE" role="13h7CS">
-      <property role="TrG5h" value="referenceTarget" />
-      <property role="13i0it" value="true" />
-      <node concept="3Tm1VV" id="64Pbr945vCF" role="1B3o_S" />
-      <node concept="3Tqbb2" id="64Pbr945vZA" role="3clF45" />
-      <node concept="3clFbS" id="64Pbr945vCH" role="3clF47">
-        <node concept="3clFbF" id="64Pbr945w0q" role="3cqZAp">
-          <node concept="13iPFW" id="64Pbr945w0p" role="3clFbG" />
-        </node>
-      </node>
-    </node>
     <node concept="13hLZK" id="6yOW_Vf6UBi" role="13h7CW">
       <node concept="3clFbS" id="6yOW_Vf6UBj" role="2VODD2" />
     </node>

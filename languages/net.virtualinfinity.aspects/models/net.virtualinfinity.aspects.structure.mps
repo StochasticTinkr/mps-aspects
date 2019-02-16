@@ -12,6 +12,9 @@
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
+      <concept id="7862711839422615209" name="jetbrains.mps.lang.structure.structure.DocumentedNodeAnnotation" flags="ng" index="t5JxF">
+        <property id="7862711839422615217" name="text" index="t5JxN" />
+      </concept>
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
         <property id="4628067390765907488" name="conceptShortDescription" index="R4oN_" />
@@ -38,6 +41,7 @@
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
         <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
@@ -54,10 +58,16 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" to="tpck:gw2VY9q" resolve="BaseConcept" />
     </node>
+    <node concept="t5JxF" id="3FA2gYcvE61" role="lGtFl">
+      <property role="t5JxN" value="All aspects implement this concept." />
+    </node>
   </node>
   <node concept="PlHQZ" id="6yOW_Vf6UBg">
     <property role="EcuMT" value="7544921764767967696" />
     <property role="TrG5h" value="IHasAspects" />
+    <node concept="t5JxF" id="3FA2gYcvE64" role="lGtFl">
+      <property role="t5JxN" value="Aspects aware instance." />
+    </node>
   </node>
   <node concept="1TIwiD" id="6yOW_VeB19C">
     <property role="EcuMT" value="7544921764759605864" />
@@ -65,6 +75,7 @@
     <property role="19KtqR" value="true" />
     <property role="3GE5qa" value="" />
     <property role="34LRSv" value="instance" />
+    <property role="R4oN_" value="an instance with some attached aspects." />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="6yOW_VeB19D" role="1TKVEi">
       <property role="IQ2ns" value="7544921764759605865" />
@@ -90,6 +101,7 @@
     <property role="19KtqR" value="true" />
     <property role="3GE5qa" value="" />
     <property role="34LRSv" value="instance aspect group" />
+    <property role="R4oN_" value="A group of instances and aspects for those instances." />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="6yOW_VeBklf" role="1TKVEi">
       <property role="IQ2ns" value="7544921764759684431" />
@@ -114,17 +126,6 @@
       <ref role="PrY4T" to="tpck:3xhyJYa45Zm" resolve="IPlaceholderContent" />
     </node>
   </node>
-  <node concept="1TIwiD" id="4XxHUpSUZ5B">
-    <property role="EcuMT" value="5720054927358423399" />
-    <property role="TrG5h" value="PlaceholderHasAspects" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="4XxHUpSUZ5C" role="PzmwI">
-      <ref role="PrY4T" to="tpck:3xhyJYa45Zm" resolve="IPlaceholderContent" />
-    </node>
-    <node concept="PrWs8" id="4XxHUpSUZ5H" role="PzmwI">
-      <ref role="PrY4T" node="6yOW_Vf6UBg" resolve="IHasAspects" />
-    </node>
-  </node>
   <node concept="1TIwiD" id="4XxHUpTmFrK">
     <property role="EcuMT" value="5720054927365682928" />
     <property role="TrG5h" value="GetAspectsExpression" />
@@ -144,6 +145,9 @@
       <property role="20kJfa" value="aspectConcept" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" to="tp25:hzMxujR" resolve="IRefConceptArg" />
+    </node>
+    <node concept="t5JxF" id="3FA2gYcvE5Y" role="lGtFl">
+      <property role="t5JxN" value="Retrieves aspects of the given types from a given node." />
     </node>
   </node>
 </model>
