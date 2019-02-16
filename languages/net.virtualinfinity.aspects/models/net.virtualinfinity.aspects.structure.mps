@@ -74,8 +74,8 @@
     <property role="TrG5h" value="InstanceWithAspects" />
     <property role="19KtqR" value="true" />
     <property role="3GE5qa" value="" />
-    <property role="34LRSv" value="instance" />
-    <property role="R4oN_" value="an instance with some attached aspects." />
+    <property role="34LRSv" value="instance with aspects" />
+    <property role="R4oN_" value="conatiner of an instance with some attached aspects" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="6yOW_VeB19D" role="1TKVEi">
       <property role="IQ2ns" value="7544921764759605865" />
